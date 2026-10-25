@@ -1,4 +1,28 @@
-_site/
+# Dependencies, caches, and build output
 node_modules/
+_site/
+.cache/
+dist/
+coverage/
 package-lock.json
-.cache
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+.dev.vars
+.dev.vars.*
+*.local
+
+# Logs and editor/OS artifacts
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
